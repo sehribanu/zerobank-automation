@@ -14,23 +14,15 @@ public class AccountSummaryPage {
         PageFactory.initElements(Driver.get(), this);
     }
 
-    @FindBy(css = "div.alert.alert-error")
-    private WebElement errorMessage ;
+    private String expectedAccountSummaryTitle = "Zero - Account Summary";
 
-    private String expectedAccountSummaryPageURL = "http://zero.webappsecurity.com/bank/account-summary.html";
-    private String expectedErrorMessage = "Login and/or password are wrong.";
 
-    public String getActualAccountSummaryPageURL(){
-        String actualAccountSummaryPageURL = Driver.get().getCurrentUrl();
-        return actualAccountSummaryPageURL;
+    public String getActualAccountSummaryTitle(){
+        String actualAccountSummaryTitle = Driver.get().getTitle();
+        return actualAccountSummaryTitle;
     }
-    public String getExpectedAccountSummaryPageURL(){
-        return expectedAccountSummaryPageURL;
+    public String getExpectedAccountSummaryTitle(){
+        return expectedAccountSummaryTitle;
     }
-    public String getExpectedErrorMessage(){
-        return expectedErrorMessage;
-    }
-    public String getActualErrorMessage(){
-        return errorMessage.getText();
-    }
+
 }

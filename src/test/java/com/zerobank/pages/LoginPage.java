@@ -29,8 +29,15 @@ public class LoginPage {
     @FindBy(css = "input.btn.btn-primary")
     private WebElement signinButton;
 
+    @FindBy(css = "div.alert.alert-error")
+    private WebElement errorMessage ;
+
+    private String expectedErrorMessage = "Login and/or password are wrong.";
+
+    public void navigateToLoginPage(){
+        Driver.get().get(ConfigurationReader.get("url"));
+    }
     public void credentialsToLogin(String username, String password){
-       Driver.get().get(ConfigurationReader.get("url"));
        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("user_login")));
        wait.until(ExpectedConditions.visibilityOf(usernameInputBox));
        usernameInputBox.sendKeys(ConfigurationReader.get(username));
@@ -38,7 +45,14 @@ public class LoginPage {
        passwordInputBox.sendKeys(ConfigurationReader.get(password));
     }
     public void clickToLogin(){
+        wait.until(ExpectedConditions.visibilityOf(signinButton));
         signinButton.click();
+    }
+    public String getExpectedErrorMessage(){
+        return expectedErrorMessage;
+    }
+    public String getActualErrorMessage(){
+        return errorMessage.getText();
     }
 
 

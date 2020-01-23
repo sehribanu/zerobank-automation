@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7777c914-fa0f-4fe0-8f10-2533148c58eb" name="Default Changelist" comment="" />
+    <list default="true" id="7777c914-fa0f-4fe0-8f10-2533148c58eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/AccountSummaryStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/AccountSummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/AccountSummaryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/LoginStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/AccountSummaryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/AccountSummaryPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/stepdefinitions/LoginStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/stepdefinitions/LoginStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,12 +39,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1WkBVunI7f8SUNOQjo0Act9j8jy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunManager">
@@ -78,21 +97,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1750" height="286" key="GridCell.Tab.0.bottom" timestamp="1579712127808">
+    <state width="1750" height="286" key="GridCell.Tab.0.bottom" timestamp="1579782321456">
       <screen x="0" y="23" width="1792" height="1045" />
     </state>
-    <state width="1750" height="286" key="GridCell.Tab.0.bottom/0.23.1792.1045@0.23.1792.1045" timestamp="1579712127808" />
-    <state width="1750" height="286" key="GridCell.Tab.0.center" timestamp="1579712127807">
+    <state width="1750" height="286" key="GridCell.Tab.0.bottom/0.23.1792.1045@0.23.1792.1045" timestamp="1579782321456" />
+    <state width="1750" height="286" key="GridCell.Tab.0.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1579775237943" />
+    <state width="1750" height="286" key="GridCell.Tab.0.center" timestamp="1579782321455">
       <screen x="0" y="23" width="1792" height="1045" />
     </state>
-    <state width="1750" height="286" key="GridCell.Tab.0.center/0.23.1792.1045@0.23.1792.1045" timestamp="1579712127807" />
-    <state width="1750" height="286" key="GridCell.Tab.0.left" timestamp="1579712127806">
+    <state width="1750" height="286" key="GridCell.Tab.0.center/0.23.1792.1045@0.23.1792.1045" timestamp="1579782321455" />
+    <state width="1750" height="286" key="GridCell.Tab.0.center/0.23.1792.1046@0.23.1792.1046" timestamp="1579775237942" />
+    <state width="1750" height="286" key="GridCell.Tab.0.left" timestamp="1579782321454">
       <screen x="0" y="23" width="1792" height="1045" />
     </state>
-    <state width="1750" height="286" key="GridCell.Tab.0.left/0.23.1792.1045@0.23.1792.1045" timestamp="1579712127806" />
-    <state width="1750" height="286" key="GridCell.Tab.0.right" timestamp="1579712127807">
+    <state width="1750" height="286" key="GridCell.Tab.0.left/0.23.1792.1045@0.23.1792.1045" timestamp="1579782321454" />
+    <state width="1750" height="286" key="GridCell.Tab.0.left/0.23.1792.1046@0.23.1792.1046" timestamp="1579775237941" />
+    <state width="1750" height="286" key="GridCell.Tab.0.right" timestamp="1579782321455">
       <screen x="0" y="23" width="1792" height="1045" />
     </state>
-    <state width="1750" height="286" key="GridCell.Tab.0.right/0.23.1792.1045@0.23.1792.1045" timestamp="1579712127807" />
+    <state width="1750" height="286" key="GridCell.Tab.0.right/0.23.1792.1045@0.23.1792.1045" timestamp="1579782321455" />
+    <state width="1750" height="286" key="GridCell.Tab.0.right/0.23.1792.1046@0.23.1792.1046" timestamp="1579775237943" />
   </component>
 </project>
