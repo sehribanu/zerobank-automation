@@ -1,0 +1,50 @@
+package com.zerobank.stepdefinitions;
+
+import com.zerobank.pages.AccountSummaryPage;
+import com.zerobank.pages.LoginPage;
+import com.zerobank.utilities.ConfigurationReader;
+import com.zerobank.utilities.Driver;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import org.junit.Assert;
+
+public class LoginStepDefs {
+
+    LoginPage loginPage;
+
+    @Given("the user navigates to login page")
+    public void the_user_navigates_to_login_page() {
+        loginPage = new LoginPage();
+
+    }
+
+    @When("the user gives valid credentials to login")
+    public void the_user_gives_valid_credentials_to_login() {
+        loginPage.credentialsToLogin(ConfigurationReader.get("username"),ConfigurationReader.get("password"));
+        loginPage.clickToLogin();
+    }
+
+    @Then("Account Summary page should be displayed")
+    public void account_Summary_page_should_be_displayed() {
+        AccountSummaryPage accountSummaryPage = new AccountSummaryPage();
+        Assert.assertEquals(accountSummaryPage.getExpectedAccountSummaryPageURL(), accountSummaryPage.getActualAccountSummaryPageURL());
+    }
+
+    @When("the user gives wrong credentials to login")
+    public void the_user_gives_wrong_credentials_to_login() {
+        loginPage.credentialsToLogin(ConfigurationReader.get("wrongUsername"),ConfigurationReader.get("wrongPassword"));
+        loginPage.clickToLogin();
+    }
+
+    @Then("error message {string} should be displayed")
+    public void error_message_should_be_displayed(String expectedErrorMessage) {
+        AccountSummaryPage accountSummaryPage = new AccountSummaryPage();
+        Assert.assertEquals(expectedErrorMessage,accountSummaryPage.getActualAccountSummaryPageURL());
+    }
+
+    @When("the user does not give credentials to login")
+    public void the_user_does_not_give_credentials_to_login() {
+        loginPage.clickToLogin();
+    }
+}

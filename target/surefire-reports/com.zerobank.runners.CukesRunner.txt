@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.zerobank.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 5.547 s <<< FAILURE! - in com.zerobank.runners.CukesRunner
+authorized users should be able to login(Login to the application)  Time elapsed: 1.712 s  <<< ERROR!
+java.lang.NullPointerException
+
+users with wrong username and password should not be able to login(Login to the application)  Time elapsed: 1.986 s  <<< ERROR!
+java.lang.NullPointerException
+
+EMPTY_NAME(Login to the application)  Time elapsed: 1.552 s  <<< ERROR!
+java.lang.NullPointerException
+
