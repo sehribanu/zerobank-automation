@@ -2,19 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7777c914-fa0f-4fe0-8f10-2533148c58eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/AccountSummaryStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/AccountActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/PayBills.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/AccountActivityStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/PayBillsStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/AccountActivityNavigation.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/AccountSummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/AccountSummaryPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/AccountSummaryStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/AccountSummaryStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/LoginStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountActivity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountActivity.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountSummary.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountSummary.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/PayBills.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/PayBills.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/AccountSummaryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/AccountSummaryPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/runners/CukesRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/stepdefinitions/LoginStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/stepdefinitions/LoginStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/AccountActivity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/AccountActivity.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/AccountSummary.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/AccountSummary.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/PayBills.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/PayBills.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,28 +107,72 @@
       <option name="presentableId" value="Default" />
       <updated>1579683739562</updated>
     </task>
+    <task id="LOCAL-00001" summary="revised step definitions">
+      <created>1579783698554</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579783698554</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="revised step definitions" />
+    <option name="LAST_COMMIT_MESSAGE" value="revised step definitions" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1750" height="286" key="GridCell.Tab.0.bottom" timestamp="1579782321456">
+    <state x="709" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1579995202374">
+      <screen x="0" y="23" width="1792" height="1046" />
+    </state>
+    <state x="709" y="256" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1046@0.23.1792.1046" timestamp="1579995202374" />
+    <state x="505" y="146" key="CommitChangelistDialog2" timestamp="1579783698400">
       <screen x="0" y="23" width="1792" height="1045" />
     </state>
-    <state width="1750" height="286" key="GridCell.Tab.0.bottom/0.23.1792.1045@0.23.1792.1045" timestamp="1579782321456" />
-    <state width="1750" height="286" key="GridCell.Tab.0.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1579775237943" />
-    <state width="1750" height="286" key="GridCell.Tab.0.center" timestamp="1579782321455">
+    <state x="505" y="146" key="CommitChangelistDialog2/0.23.1792.1045@0.23.1792.1045" timestamp="1579783698400" />
+    <state width="1750" height="352" key="GridCell.Tab.0.bottom" timestamp="1579996550744">
+      <screen x="0" y="23" width="1792" height="1046" />
+    </state>
+    <state width="1750" height="239" key="GridCell.Tab.0.bottom/0.23.1792.1045@0.23.1792.1045" timestamp="1579814965243" />
+    <state width="1750" height="352" key="GridCell.Tab.0.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1579996550744" />
+    <state width="1750" height="352" key="GridCell.Tab.0.center" timestamp="1579996550743">
+      <screen x="0" y="23" width="1792" height="1046" />
+    </state>
+    <state width="1750" height="239" key="GridCell.Tab.0.center/0.23.1792.1045@0.23.1792.1045" timestamp="1579814965242" />
+    <state width="1750" height="352" key="GridCell.Tab.0.center/0.23.1792.1046@0.23.1792.1046" timestamp="1579996550743" />
+    <state width="1750" height="352" key="GridCell.Tab.0.left" timestamp="1579996550743">
+      <screen x="0" y="23" width="1792" height="1046" />
+    </state>
+    <state width="1750" height="239" key="GridCell.Tab.0.left/0.23.1792.1045@0.23.1792.1045" timestamp="1579814965242" />
+    <state width="1750" height="352" key="GridCell.Tab.0.left/0.23.1792.1046@0.23.1792.1046" timestamp="1579996550743" />
+    <state width="1750" height="352" key="GridCell.Tab.0.right" timestamp="1579996550743">
+      <screen x="0" y="23" width="1792" height="1046" />
+    </state>
+    <state width="1750" height="239" key="GridCell.Tab.0.right/0.23.1792.1045@0.23.1792.1045" timestamp="1579814965243" />
+    <state width="1750" height="352" key="GridCell.Tab.0.right/0.23.1792.1046@0.23.1792.1046" timestamp="1579996550743" />
+    <state width="1750" height="352" key="GridCell.Tab.1.bottom" timestamp="1579996550744">
+      <screen x="0" y="23" width="1792" height="1046" />
+    </state>
+    <state width="1750" height="352" key="GridCell.Tab.1.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1579996550744" />
+    <state width="1750" height="352" key="GridCell.Tab.1.center" timestamp="1579996550744">
+      <screen x="0" y="23" width="1792" height="1046" />
+    </state>
+    <state width="1750" height="352" key="GridCell.Tab.1.center/0.23.1792.1046@0.23.1792.1046" timestamp="1579996550744" />
+    <state width="1750" height="352" key="GridCell.Tab.1.left" timestamp="1579996550744">
+      <screen x="0" y="23" width="1792" height="1046" />
+    </state>
+    <state width="1750" height="352" key="GridCell.Tab.1.left/0.23.1792.1046@0.23.1792.1046" timestamp="1579996550744" />
+    <state width="1750" height="352" key="GridCell.Tab.1.right" timestamp="1579996550744">
+      <screen x="0" y="23" width="1792" height="1046" />
+    </state>
+    <state width="1750" height="352" key="GridCell.Tab.1.right/0.23.1792.1046@0.23.1792.1046" timestamp="1579996550744" />
+    <state x="496" y="287" key="Vcs.Push.Dialog.v2" timestamp="1579783701417">
       <screen x="0" y="23" width="1792" height="1045" />
     </state>
-    <state width="1750" height="286" key="GridCell.Tab.0.center/0.23.1792.1045@0.23.1792.1045" timestamp="1579782321455" />
-    <state width="1750" height="286" key="GridCell.Tab.0.center/0.23.1792.1046@0.23.1792.1046" timestamp="1579775237942" />
-    <state width="1750" height="286" key="GridCell.Tab.0.left" timestamp="1579782321454">
-      <screen x="0" y="23" width="1792" height="1045" />
+    <state x="496" y="287" key="Vcs.Push.Dialog.v2/0.23.1792.1045@0.23.1792.1045" timestamp="1579783701417" />
+    <state x="561" y="255" width="670" height="676" key="search.everywhere.popup" timestamp="1579951571588">
+      <screen x="0" y="23" width="1792" height="1046" />
     </state>
-    <state width="1750" height="286" key="GridCell.Tab.0.left/0.23.1792.1045@0.23.1792.1045" timestamp="1579782321454" />
-    <state width="1750" height="286" key="GridCell.Tab.0.left/0.23.1792.1046@0.23.1792.1046" timestamp="1579775237941" />
-    <state width="1750" height="286" key="GridCell.Tab.0.right" timestamp="1579782321455">
-      <screen x="0" y="23" width="1792" height="1045" />
-    </state>
-    <state width="1750" height="286" key="GridCell.Tab.0.right/0.23.1792.1045@0.23.1792.1045" timestamp="1579782321455" />
-    <state width="1750" height="286" key="GridCell.Tab.0.right/0.23.1792.1046@0.23.1792.1046" timestamp="1579775237943" />
+    <state x="561" y="255" width="670" height="676" key="search.everywhere.popup/0.23.1792.1046@0.23.1792.1046" timestamp="1579951571588" />
   </component>
 </project>

@@ -26,9 +26,9 @@ public class LoginStepDefs {
     }
     @When("the user gives wrong credentials to login")
     public void the_user_gives_wrong_credentials_to_login() throws InterruptedException {
-        Thread.sleep(4000);
-        loginPage.credentialsToLogin(ConfigurationReader.get("wrongUsername"),ConfigurationReader.get("wrongPassword"));
-        Thread.sleep(1000);
+        loginPage = new LoginPage();
+        loginPage.getUsernameInputBox().sendKeys("usernamx");
+        loginPage.getPasswordInputBox().sendKeys("passworx");
         loginPage.clickToLogin();
     }
     @Then("error message should be displayed")
@@ -38,5 +38,11 @@ public class LoginStepDefs {
     @When("the user does not give credentials to login")
     public void the_user_does_not_give_credentials_to_login() {
         loginPage.clickToLogin();
+    }
+
+    @Then("Account Summary page should be displayed")
+    public void account_Summary_page_should_be_displayed() {
+        AccountSummaryPage accountSummaryPage = new AccountSummaryPage();
+        Assert.assertEquals(accountSummaryPage.getExpectedAccountSummaryTitle(), accountSummaryPage.getActualAccountSummaryTitle());
     }
 }

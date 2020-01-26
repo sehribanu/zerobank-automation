@@ -1,4 +1,4 @@
-@login
+@login @all
 Feature: Login to the application
 
   Scenario: authorized users should be able to login
@@ -6,7 +6,7 @@ Feature: Login to the application
       When the user gives valid credentials to login
       Then Account Summary page should be displayed
 
-  Scenario: users with wrong username and password should not be able to login
+  Scenario: users with wrongUsername and wrongPassword should not be able to login
       Given the user navigates to login page
       When the user gives wrong credentials to login
       Then error message should be displayed

@@ -20,10 +20,10 @@ public class LoginPage {
     }
 
 
-    @FindBy(id="user_login")
+    @FindBy(css = "[name ='user_login']")
     private WebElement usernameInputBox;
 
-    @FindBy(id="user_password")
+    @FindBy(css = "[name='user_password']")
     private WebElement passwordInputBox;
 
     @FindBy(css = "input.btn.btn-primary")
@@ -38,10 +38,10 @@ public class LoginPage {
         Driver.get().get(ConfigurationReader.get("url"));
     }
     public void credentialsToLogin(String username, String password){
-       wait.until(ExpectedConditions.presenceOfElementLocated(By.id("user_login")));
+       wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[name ='user_login']") ));
        wait.until(ExpectedConditions.visibilityOf(usernameInputBox));
        usernameInputBox.sendKeys(ConfigurationReader.get(username));
-       wait.until(ExpectedConditions.presenceOfElementLocated(By.id("user_password")));
+       wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[name='user_password']")));
        passwordInputBox.sendKeys(ConfigurationReader.get(password));
     }
     public void clickToLogin(){
@@ -55,5 +55,11 @@ public class LoginPage {
         return errorMessage.getText();
     }
 
+    public WebElement getUsernameInputBox() {
+        return usernameInputBox;
+    }
 
+    public WebElement getPasswordInputBox() {
+        return passwordInputBox;
+    }
 }
