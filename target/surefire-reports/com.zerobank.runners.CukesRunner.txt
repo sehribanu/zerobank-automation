@@ -1,13 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: com.zerobank.runners.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 5.547 s <<< FAILURE! - in com.zerobank.runners.CukesRunner
-authorized users should be able to login(Login to the application)  Time elapsed: 1.712 s  <<< ERROR!
-java.lang.NullPointerException
-
-users with wrong username and password should not be able to login(Login to the application)  Time elapsed: 1.986 s  <<< ERROR!
-java.lang.NullPointerException
-
-EMPTY_NAME(Login to the application)  Time elapsed: 1.552 s  <<< ERROR!
-java.lang.NullPointerException
+Tests run: 9, Failures: 0, Errors: 1, Skipped: 3, Time elapsed: 34.053 s <<< FAILURE! - in com.zerobank.runners.CukesRunner
+Search date range(Find Transactions in Account Activity)  Time elapsed: 3.77 s  <<< ERROR!
+cucumber.runtime.CucumberException: 
+Could not convert arguments for step [the user enters date range from “{int}{int}{int}” to “{int}{int}{int}”] defined at 'com.zerobank.stepdefinitions.FindTransactionsStepDefs.the_user_enters_date_range_from_to(Integer,Integer,Integer,Integer,Integer,Integer) in file:/Users/sehribanbanu/Dropbox/zerobank-automation/target/test-classes/'.
+The details are in the stacktrace below.
+Caused by: io.cucumber.cucumberexpressions.CucumberExpressionException: ParameterType {int} failed to transform [-09] to class java.lang.Integer
+Caused by: java.lang.NumberFormatException: For input string: "-9" under radix 8
 

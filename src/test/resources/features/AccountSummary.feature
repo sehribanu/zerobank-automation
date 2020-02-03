@@ -1,4 +1,4 @@
-@all
+@accsummary
 Feature: Account Summary
 
   Background:

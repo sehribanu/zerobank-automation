@@ -1,6 +1,6 @@
-@login @all
+@login
 Feature: Login to the application
-
+@test
   Scenario: authorized users should be able to login
       Given the user navigates to login page
       When the user gives valid credentials to login

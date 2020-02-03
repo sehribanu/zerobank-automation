@@ -1,6 +1,9 @@
 package com.zerobank.pages;
 
 import com.zerobank.utilities.Driver;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -22,6 +25,24 @@ public class AccountActivity extends BasePage {
 
     @FindBy(xpath = "//table[@class='table table-condensed table-hover']/thead/tr/th")
     private List<WebElement> columnTitles;
+
+    @FindBy(xpath = "//option[contains(text(),'Checking')]")
+    private WebElement checkingOption;
+
+    @FindBy(xpath = "//option[contains(text(),'Savings')]")
+    private WebElement savingsOption;
+
+    @FindBy(xpath = "//option[contains(text(),'Loan')]")
+    private WebElement loanOption;
+
+    @FindBy(xpath = "//option[contains(text(),'Credit Card')]")
+    private WebElement creditcardOption;
+
+    @FindBy(xpath = "//option[contains(text(),'Brokerage')]")
+    private WebElement brokerageOption;
+
+    @FindBy(xpath = "//a[contains(text(),'Find Transactions')]")
+    private WebElement findTransactionsTab;
 
     WebDriverWait wait = new WebDriverWait(Driver.get(),10);
 
@@ -52,5 +73,28 @@ public class AccountActivity extends BasePage {
         return actualColumnTitles;
     }
 
+    public WebElement getCheckingOption() {
+        return checkingOption;
+    }
 
+    public WebElement getSavingsOption() {
+        return savingsOption;
+    }
+
+    public WebElement getLoanOption() {
+        return loanOption;
+    }
+
+    public WebElement getCreditcardOption() {
+        return creditcardOption;
+    }
+
+    public WebElement getBrokerageOption() {
+        return brokerageOption;
+    }
+
+    public void navigateToFindTransactions(){
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(text(),'Find Transactions')]")));
+        findTransactionsTab.click();
+    }
 }

@@ -1,1 +1,3 @@
+com/zerobank/pages/AccountActivity_FindTransactions.class
 com/zerobank/stepdefinitions/Hooks.class
+com/zerobank/stepdefinitions/FindTransactionsStepDefs.class

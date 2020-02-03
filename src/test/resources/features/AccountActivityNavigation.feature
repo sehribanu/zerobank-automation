@@ -1,10 +1,9 @@
-@all
+@accactivity
 Feature: Navigating to specific accounts in Accounts Activity
 
   Background:
     Given the user navigates to login page
     And the user gives valid credentials to login
-    And the user navigates to Account Activity Page
 
   Scenario: Savings account redirect
     When the user clicks on Savings link on the Account Summary page
