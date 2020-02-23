@@ -28,7 +28,7 @@ public class FindTransactions extends BasePage {
     @FindBy (id = "aa_description")
     private WebElement inputDescription;
 
-    @FindBy (xpath = "//button[@class='btn btn-primary']")
+    @FindBy (xpath = "//div[@class='pull-right']//button")
     private WebElement buttonFind;
 
     @FindBy(xpath = "//div[@id='filtered_transactions_for_account']//td[2]")
@@ -88,6 +88,14 @@ public class FindTransactions extends BasePage {
         }
         return list;
     }
+
+    public List<String> getTextOfListResults(List<WebElement> listing){
+        List<String> list=new ArrayList<>();
+        for(WebElement k: listing){
+            list.add(k.getText());
+        }
+        return list;
+    }
     @FindBy(xpath = "//div[@id='filtered_transactions_for_account']//td[3]")
     private List<WebElement> depositResults;
 
@@ -139,6 +147,28 @@ public class FindTransactions extends BasePage {
                 break;
         }
         list=getAttributeOfListResults(result);
+        return list;
+    }
+
+    public List<String> textsOfSelectTypeResults (String type){
+        List<WebElement> result = new ArrayList<>();
+        List<String> list = new ArrayList<>();
+
+        switch (type.toLowerCase()){
+            case "deposit":
+                result = depositResults;
+                break;
+            case "withdrawal":
+                result = withrawalResults;
+                break;
+            case "description":
+                result = findResults;
+                break;
+            case "date":
+                result = dateResults;
+                break;
+        }
+        list=getTextOfListResults(result);
         return list;
     }
     @FindBy(xpath = "//select[@id='aa_type']")

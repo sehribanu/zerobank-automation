@@ -1,4 +1,4 @@
-@login
+@all
 Feature: Login to the application
 @test
   Scenario: authorized users should be able to login

@@ -69,7 +69,9 @@ public class PayBillsStepDefs {
     @Then("the user should not get {string} message")
     public void the_user_should_not_get_message(String string) {
         PayBills payBills = new PayBills();
+        System.out.println(payBills.getSuccesfulMessage());
         Assert.assertNotEquals(string,payBills.getSuccesfulMessage());
+
     }
 
     @Then("the user should get {string} alert")

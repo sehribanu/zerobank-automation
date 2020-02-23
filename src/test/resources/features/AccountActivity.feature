@@ -1,4 +1,4 @@
-@accactivity
+@all
 Feature: Account Activity
 
   Background:

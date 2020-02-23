@@ -1,4 +1,4 @@
-@paybills
+@all
 Feature: Pay Bills
 
   Background:
@@ -14,7 +14,7 @@ Feature: Pay Bills
     And the user writes down "payment" as description
     And the user clicks the Pay button
     Then the user gets "The payment was successfully submitted." message
-
+  @failed
   Scenario: amount field should not accept alphabetical characters
     When the user selects "Apple" as payee
     And the user selects "Loan" as account
@@ -23,7 +23,7 @@ Feature: Pay Bills
     And the user writes down "payment" as description
     And the user clicks the Pay button
     Then the user should not get "The payment was successfully submitted." message
-
+  @failed
   Scenario: amount field should not accept special characters
     When the user selects "Wells Fargo" as payee
     And the user selects "Credit Card" as account

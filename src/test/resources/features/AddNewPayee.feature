@@ -1,3 +1,4 @@
+@all
 Feature: Add new payee under pay bills
   Background:
     Given the user navigates to login page
