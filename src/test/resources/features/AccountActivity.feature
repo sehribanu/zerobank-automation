@@ -1,4 +1,4 @@
-@all
+@all @jenkins
 Feature: Account Activity
 
   Background:
