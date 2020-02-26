@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7777c914-fa0f-4fe0-8f10-2533148c58eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountActivity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountActivity.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/runners/CukesRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582748070607</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="cukesrunner tags has changed to jenkins">
+      <created>1582750351355</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582750351355</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -132,7 +138,8 @@
     <MESSAGE value="PayBills-BasePage-AccountActivity added" />
     <MESSAGE value="code update" />
     <MESSAGE value="cukesrunner tags has changed to all" />
-    <option name="LAST_COMMIT_MESSAGE" value="cukesrunner tags has changed to all" />
+    <MESSAGE value="cukesrunner tags has changed to jenkins" />
+    <option name="LAST_COMMIT_MESSAGE" value="cukesrunner tags has changed to jenkins" />
   </component>
   <component name="WindowStateProjectService">
     <state x="559" y="355" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580048816545">
@@ -146,12 +153,12 @@
     <state x="709" y="256" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1046@0.23.1792.1046" timestamp="1580133365394" />
     <state x="1076" y="293" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1047@0.23.1792.1047" timestamp="1580492687130" />
     <state x="709" y="256" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1048@0.23.1792.1048" timestamp="1580284158940" />
-    <state x="505" y="146" key="CommitChangelistDialog2" timestamp="1582748070398">
+    <state x="505" y="146" key="CommitChangelistDialog2" timestamp="1582750351121">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="505" y="146" key="CommitChangelistDialog2/0.23.1792.1044@0.23.1792.1044" timestamp="1580029053726" />
     <state x="505" y="146" key="CommitChangelistDialog2/0.23.1792.1045@0.23.1792.1045" timestamp="1580730878963" />
-    <state x="505" y="146" key="CommitChangelistDialog2/0.23.1792.1049@0.23.1792.1049" timestamp="1582748070398" />
+    <state x="505" y="146" key="CommitChangelistDialog2/0.23.1792.1049@0.23.1792.1049" timestamp="1582750351121" />
     <state width="1750" height="338" key="GridCell.Tab.0.bottom" timestamp="1582748612237">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
@@ -216,12 +223,12 @@
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
     <state x="384" y="128" key="SettingsEditor/0.23.1792.1044@0.23.1792.1044" timestamp="1580081302469" />
-    <state x="496" y="288" key="Vcs.Push.Dialog.v2" timestamp="1582748077916">
+    <state x="496" y="288" key="Vcs.Push.Dialog.v2" timestamp="1582750353722">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="496" y="287" key="Vcs.Push.Dialog.v2/0.23.1792.1044@0.23.1792.1044" timestamp="1580029056956" />
     <state x="496" y="287" key="Vcs.Push.Dialog.v2/0.23.1792.1045@0.23.1792.1045" timestamp="1580730887037" />
-    <state x="496" y="288" key="Vcs.Push.Dialog.v2/0.23.1792.1049@0.23.1792.1049" timestamp="1582748077916" />
+    <state x="496" y="288" key="Vcs.Push.Dialog.v2/0.23.1792.1049@0.23.1792.1049" timestamp="1582750353722" />
     <state x="561" y="255" width="670" height="676" key="search.everywhere.popup" timestamp="1579951571588">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
