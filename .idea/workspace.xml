@@ -3,23 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7777c914-fa0f-4fe0-8f10-2533148c58eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/FindTransactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/FindTransactions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/FindTransactionsStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/FindTransactionsStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/PayBillsStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/stepdefinitions/PayBillsStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountActivity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountActivity.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountActivityNavigation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountActivityNavigation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountSummary.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountSummary.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AddNewPayee.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AddNewPayee.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/FindTransactions.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/FindTransactions.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/PayBills.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/PayBills.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/AccountActivity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/AccountActivity.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/AccountSummary.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/AccountSummary.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/PayBills.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/PayBills.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580730879265</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="code update">
+      <created>1582464389292</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582464389292</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,11 +135,12 @@
     <state x="709" y="256" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1046@0.23.1792.1046" timestamp="1580133365394" />
     <state x="1076" y="293" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1047@0.23.1792.1047" timestamp="1580492687130" />
     <state x="709" y="256" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1048@0.23.1792.1048" timestamp="1580284158940" />
-    <state x="505" y="146" key="CommitChangelistDialog2" timestamp="1580730878963">
-      <screen x="0" y="23" width="1792" height="1045" />
+    <state x="505" y="146" key="CommitChangelistDialog2" timestamp="1582464389092">
+      <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="505" y="146" key="CommitChangelistDialog2/0.23.1792.1044@0.23.1792.1044" timestamp="1580029053726" />
     <state x="505" y="146" key="CommitChangelistDialog2/0.23.1792.1045@0.23.1792.1045" timestamp="1580730878963" />
+    <state x="505" y="146" key="CommitChangelistDialog2/0.23.1792.1049@0.23.1792.1049" timestamp="1582464389092" />
     <state width="1750" height="338" key="GridCell.Tab.0.bottom" timestamp="1580833626607">
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
@@ -210,11 +201,12 @@
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
     <state x="384" y="128" key="SettingsEditor/0.23.1792.1044@0.23.1792.1044" timestamp="1580081302469" />
-    <state x="496" y="287" key="Vcs.Push.Dialog.v2" timestamp="1580730887037">
-      <screen x="0" y="23" width="1792" height="1045" />
+    <state x="496" y="288" key="Vcs.Push.Dialog.v2" timestamp="1582464397025">
+      <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="496" y="287" key="Vcs.Push.Dialog.v2/0.23.1792.1044@0.23.1792.1044" timestamp="1580029056956" />
     <state x="496" y="287" key="Vcs.Push.Dialog.v2/0.23.1792.1045@0.23.1792.1045" timestamp="1580730887037" />
+    <state x="496" y="288" key="Vcs.Push.Dialog.v2/0.23.1792.1049@0.23.1792.1049" timestamp="1582464397025" />
     <state x="561" y="255" width="670" height="676" key="search.everywhere.popup" timestamp="1579951571588">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
